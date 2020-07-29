@@ -1,0 +1,29 @@
+{
+    "name": "leandervdo/laravel-nova-qr-code",
+    "description": "A laravel nova field for generating QR-codes on Nova resources",
+    "keywords": [
+        "laravel",
+        "nova"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Leandervdo\\LaravelNovaQrCode\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Leandervdo\\LaravelNovaQrCode\\FieldServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
